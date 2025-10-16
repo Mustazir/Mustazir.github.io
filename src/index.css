@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+@font-face {
+  font-family: halenoir;
+  src: url(../assets/HalenoirCompact-Regular.otf);
+}
+
+@font-face {
+  font-family: milker;
+  src: url(../src/assets/Milker.otf);
+}@font-face {
+  font-family: rusticRoadway;
+  src: url(../src/assets/RusticRoadway.otf);
+}@font-face {
+  font-family: themunday;
+  src: url(../src/assets/Themundayfreeversion-Regular.ttf);
+}
+
+
+
+
+
+@plugin "daisyui";
+
+
+@theme {
+    
+  --font-hale: halenoir, sans-serif;
+  --font-milker: milker, sans-serif;
+  --font-rusticRoadway: rusticRoadway, sans-serif;
+  --font-themunday: themunday, sans-serif;
+  --font-urbanist: "Urbanist", sans-serif;
+  --font-dmSans: "DM Sans", sans-serif;
+  --font-inter: "Inter", sans-serif;
+
+  
+}
+body{
+  cursor: default;
+}
+::-webkit-scrollbar{
+  width: 5px;
+}
+::-webkit-scrollbar-track{
+  background: rgb(219, 39, 39);
+}
